@@ -25,9 +25,9 @@ A reusable widget that displays a custom context menu on right-click (or long pr
 ContextMenu(
   child: YourWidget(),
   menuItems: [
-    ContextMenuItem(text: 'Create', onTap: () { /* your action */ }),
-    ContextMenuItem(text: 'Edit', onTap: () { /* your action */ }),
-    ContextMenuItem(text: 'Remove', onTap: () { /* your action */ }),
+    ContextMenuItem(text: 'Create', onTap: () {  }),
+    ContextMenuItem(text: 'Edit', onTap: () {  }),
+    ContextMenuItem(text: 'Remove', onTap: () { }),
   ],
 )
 ```
